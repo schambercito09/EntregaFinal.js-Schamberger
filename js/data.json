@@ -1,0 +1,35 @@
+[
+    {   "id":1, 
+        "nombre":"fideo",  
+        "cantidad":1, 
+        "precio": 600,
+        "img": "../assets/images/fideo.webp"
+    },
+
+
+    {   "id":2, 
+        "nombre":"arroz",  
+        "cantidad":1,  
+        "precio": 500,
+        "img": "../assets/images/arroz.webp"
+    },
+
+
+    {   "id":3, 
+        "nombre":"yerba",  
+        "cantidad":1,  
+        "precio": 1500,
+        "img": "../assets/images/yerba.jpeg"
+
+    },
+
+
+    {   "id":4, 
+        "nombre":"azucar", 
+        "cantidad":1,  
+        "precio": 1400,
+        "img": "../assets/images/azucar.webp"
+    }
+
+
+]

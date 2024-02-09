@@ -1,0 +1,207 @@
+.banner{
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.banner-container{
+    align-items: center;
+    background-color: red;
+    color: white;
+    
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.subtitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body{
+    margin: 0px;
+}
+
+.nav-container{
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: black;
+
+}
+
+.navbar-logo{
+    justify-self: start;
+    margin-left: 20px;
+    color: #fff;
+    margin-top: 4vh;
+    cursor: pointer;
+
+}
+.ver-carrito{
+    justify-self: start;
+    margin-left: 20px;
+    color: #fff;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+
+
+.ver-carrito{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 3.5vh;
+    cursor: pointer;
+
+}
+
+
+
+
+.contenidoTienda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.card{
+    box-shadow: 0 4px 0 white;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card > img{
+    width: 100%;
+    height: 250px;
+    
+
+}
+
+.precio{
+    color: white;
+    font-size: 22px;
+
+}
+
+.card button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+
+
+}
+
+.card button:hover{
+    opacity: 0.7;
+}
+/**/
+
+
+.modal-container{
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: black;
+    background-color:gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+
+}
+
+.modal-container::-webkit-scrollbar{
+    display: none;
+
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    color: black;
+    width: 100%;
+
+
+}
+
+.modal-header-title{
+    justify-self: start;
+
+}
+.modal-header-button{
+    cursor: pointer;
+}
+
+.modal-container > .modal-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+
+}
+
+.modal-container > div > img{
+    height: 120px;
+    width: 120px;
+
+}
+
+.compra-total{
+
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+
+
+.eliminar-producto{
+    cursor: pointer;
+}
+
+.sumar{
+    cursor: pointer;
+    align-items: center;
+    background-color: green;
+}
+
+.restar{
+    cursor: pointer;
+    align-items: center;
+    background-color: red;
+}
